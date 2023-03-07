@@ -62,6 +62,7 @@ class CreateLessonRequest extends FormRequest
 
             'teacher_email.required' => 'Email giảng viên không được để trống',
             'teacher_email.email' => 'Email giảng viên không đúng định dạng',
+            
             'tutor_email.email' => 'Email tutor không đúng định dạng',
 
             'content.max' => 'Nội dung không được quá 2000 ký tự',
